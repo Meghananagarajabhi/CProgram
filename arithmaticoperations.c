@@ -1,4 +1,4 @@
-#include<stdio.>
+#include <stdio.h>
 int main()
 {
 int a,b;
@@ -16,4 +16,11 @@ printf("difference of a and b\n");
 else
 if(a*b)
 {
-printf("
+printf("product of a and b\n");
+}
+else
+if(a/b)
+{
+printf("division of a and b\n");
+}
+}
